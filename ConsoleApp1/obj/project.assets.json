@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kbuzz\\source\\repos\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Kbuzz\\Source\\Repos\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Kbuzz\\source\\repos\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\Kbuzz\\Source\\Repos\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Kbuzz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kbuzz\\source\\repos\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Kbuzz\\Source\\Repos\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

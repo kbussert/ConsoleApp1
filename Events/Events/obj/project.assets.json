@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\kbuzz\\source\\repos\\Events\\Events\\Events.csproj",
+      "projectUniqueName": "C:\\Users\\Kbuzz\\Source\\Repos\\Events\\Events\\Events.csproj",
       "projectName": "Events",
-      "projectPath": "c:\\users\\kbuzz\\source\\repos\\Events\\Events\\Events.csproj",
+      "projectPath": "C:\\Users\\Kbuzz\\Source\\Repos\\Events\\Events\\Events.csproj",
       "packagesPath": "C:\\Users\\Kbuzz\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\kbuzz\\source\\repos\\Events\\Events\\obj\\",
+      "outputPath": "C:\\Users\\Kbuzz\\Source\\Repos\\Events\\Events\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
