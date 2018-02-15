@@ -54,7 +54,7 @@ namespace ConsoleApp1
                     }
                     else if(temp.Value < x)
                     {
-                        before. += temp;
+                        //before. += temp;
                         before.AddFirst(temp);
                     }
                     else

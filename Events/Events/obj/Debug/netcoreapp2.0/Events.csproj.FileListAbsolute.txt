@@ -1,0 +1,11 @@
+C:\Source\VS_Source\Events\Events\bin\Debug\netcoreapp2.0\Events.deps.json
+C:\Source\VS_Source\Events\Events\bin\Debug\netcoreapp2.0\Events.runtimeconfig.json
+C:\Source\VS_Source\Events\Events\bin\Debug\netcoreapp2.0\Events.runtimeconfig.dev.json
+C:\Source\VS_Source\Events\Events\bin\Debug\netcoreapp2.0\Events.dll
+C:\Source\VS_Source\Events\Events\bin\Debug\netcoreapp2.0\Events.pdb
+C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.AssemblyInfoInputs.cache
+C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.AssemblyInfo.cs
+C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.dll
+C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.pdb

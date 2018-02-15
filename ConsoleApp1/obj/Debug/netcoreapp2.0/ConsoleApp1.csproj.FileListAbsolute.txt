@@ -9,3 +9,9 @@ c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.Asse
 c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
 c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
 c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
+C:\Source\VS_Source\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Source\VS_Source\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+C:\Source\VS_Source\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+C:\Source\VS_Source\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
