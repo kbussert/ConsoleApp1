@@ -1,0 +1,11 @@
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.deps.json
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.runtimeconfig.json
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.runtimeconfig.dev.json
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.dll
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.pdb
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.AssemblyInfoInputs.cache
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.AssemblyInfo.cs
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.dll
+C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.pdb

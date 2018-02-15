@@ -1,0 +1,4 @@
+C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.csprojResolveAssemblyReference.cache
+C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.csproj.CoreCompileInputs.cache
+C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfoInputs.cache
+C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfo.cs

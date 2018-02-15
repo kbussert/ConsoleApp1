@@ -1,0 +1,11 @@
+c:\users\kbuzz\source\repos\Delegates\Delegates\bin\Debug\netcoreapp2.0\Delegates.deps.json
+c:\users\kbuzz\source\repos\Delegates\Delegates\bin\Debug\netcoreapp2.0\Delegates.runtimeconfig.json
+c:\users\kbuzz\source\repos\Delegates\Delegates\bin\Debug\netcoreapp2.0\Delegates.runtimeconfig.dev.json
+c:\users\kbuzz\source\repos\Delegates\Delegates\bin\Debug\netcoreapp2.0\Delegates.dll
+c:\users\kbuzz\source\repos\Delegates\Delegates\bin\Debug\netcoreapp2.0\Delegates.pdb
+c:\users\kbuzz\source\repos\Delegates\Delegates\obj\Debug\netcoreapp2.0\Delegates.csprojResolveAssemblyReference.cache
+c:\users\kbuzz\source\repos\Delegates\Delegates\obj\Debug\netcoreapp2.0\Delegates.csproj.CoreCompileInputs.cache
+c:\users\kbuzz\source\repos\Delegates\Delegates\obj\Debug\netcoreapp2.0\Delegates.AssemblyInfoInputs.cache
+c:\users\kbuzz\source\repos\Delegates\Delegates\obj\Debug\netcoreapp2.0\Delegates.AssemblyInfo.cs
+c:\users\kbuzz\source\repos\Delegates\Delegates\obj\Debug\netcoreapp2.0\Delegates.dll
+c:\users\kbuzz\source\repos\Delegates\Delegates\obj\Debug\netcoreapp2.0\Delegates.pdb

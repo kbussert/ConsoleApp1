@@ -1,0 +1,11 @@
+c:\users\kbuzz\source\repos\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+c:\users\kbuzz\source\repos\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+c:\users\kbuzz\source\repos\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+c:\users\kbuzz\source\repos\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+c:\users\kbuzz\source\repos\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojResolveAssemblyReference.cache
+c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+c:\users\kbuzz\source\repos\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
