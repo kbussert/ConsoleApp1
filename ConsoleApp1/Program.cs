@@ -29,55 +29,48 @@ namespace ConsoleApp1
             list = listPartition(list.First, 95);
 
             LinkedList<int> listPartition(LinkedListNode<int> source, int x)
-            {////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////this solution doesn't compile...rework
-             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////this solution doesn't compile...rework
-             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////this solution doesn't compile...rework
-                LinkedList<int> before = new LinkedList<int>();
-                LinkedList<int> after = new LinkedList<int>();
-                LinkedList<int> equal = new LinkedList<int>();
-                LinkedListNode<int> temp = source;
-                
-                //LinkedList<int> destination = new LinkedList<int>();
+            {
+                int equalCount = 0;
+                LinkedList<int> destination = new LinkedList<int>();
 
-                if (temp == null || temp.Next == null)
+                if (source == null || source.Next == null)
                 {
-                    Console.WriteLine("The list does not have enought nodes to sort");
-                    before.AddFirst(temp);
-                    return before;
+                    Console.WriteLine("\nThe list does not have enought nodes to sort");
+                    destination.AddFirst(source);
+                    return destination;
                 }
 
-                while(temp != null)
+                while (source != null)
                 {
-                    if (temp.Value > x)
+                    if (source.Value > x)
                     {
-                        after.AddFirst(temp);
+                        destination.AddLast(new LinkedListNode<int>(source.Value));
                     }
-                    else if(temp.Value < x)
+                    else if(source.Value < x)
                     {
-                        //before. += temp;
-                        before.AddFirst(temp);
+                        destination.AddFirst(new LinkedListNode<int>(source.Value));
                     }
                     else
                     {
-                        equal.AddFirst(temp);
+                        equalCount++;
                     }
 
-                    temp = temp.Next;
+                    source = source.Next;
                 }
 
-                //combine lists to make a final product
+                //find a location to inject the equal values (if there are any)
 
-                if (equal.Count > 0 )
+                if (equalCount > 0)
                 {
-                    before.AddLast(equal.First);
+                    //iterate through list and insert before or after?
+                   
                 }
-                if (after.Count > 0)
-                {
-                    before.AddLast(after.First);
-                }
-                return before;
+
+
+                return destination;
             }
 
+            printList(list);
 
             Console.ReadKey();
         }
