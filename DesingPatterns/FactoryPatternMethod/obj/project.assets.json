@@ -664,7 +664,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kbuzz\\.nuget\\packages\\": {},
+    "C:\\Users\\KB186036\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,18 +674,20 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kbuzz\\source\\repos\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj",
+      "projectUniqueName": "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj",
       "projectName": "FactoryPatternMethod",
-      "projectPath": "C:\\Users\\Kbuzz\\source\\repos\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj",
-      "packagesPath": "C:\\Users\\Kbuzz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kbuzz\\source\\repos\\DesingPatterns\\FactoryPatternMethod\\obj\\",
+      "projectPath": "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj",
+      "packagesPath": "C:\\Users\\KB186036\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kbuzz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\KB186036\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

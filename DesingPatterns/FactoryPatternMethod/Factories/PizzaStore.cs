@@ -9,8 +9,7 @@ namespace FactoryPatternMethod.Factories
 {
     abstract class PizzaStore
     {
-        IngredientFactory factory;
-        Pizza pizza;
+        protected abstract Pizza create(PizzaType T);
 
         public void orderPizza()
         {
@@ -36,8 +35,6 @@ namespace FactoryPatternMethod.Factories
         {
 
         }
-
-        protected abstract Pizza create();
 
     }
 }

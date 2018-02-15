@@ -7,7 +7,7 @@ using AbstractFactory.Interfaces.AbstractProducts;
 
 namespace AbstractFactory.ConcreteClasses.Factories
 {
-    class NYIngredientFactory : IngredientFactory
+    public class NYIngredientFactory : IngredientFactory
     {
         public ICheese createCheese()
         {

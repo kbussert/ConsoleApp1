@@ -6,6 +6,8 @@ using AbstractFactory.Interfaces.AbstractFactory;
 
 namespace FactoryPatternMethod.Products
 {
+    public enum PizzaType { CHEESE, PEPPERONI, CLAM, VEGGIE, SAUSAGE, DELUXE };
+
     public abstract class Pizza
     {
         public string Name { get; set; }
@@ -16,12 +18,22 @@ namespace FactoryPatternMethod.Products
         IMeats meats;
         IngredientFactory factory;
 
-        public Pizza()
+        protected abstract void prepare();
+
+        void bake()
         {
-            
+
         }
 
+        void cut()
+        {
 
+        }
+
+        void box()
+        {
+
+        }
 
     }
 }
