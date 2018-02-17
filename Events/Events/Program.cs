@@ -22,16 +22,16 @@ namespace Events
             }
         }
 
-        public void listener(object sender, AccountChangeArgs a)
-        {
-            Console.WriteLine("The balance amount is {0}", a.amount);
-        }
+        //public void listener(object sender, AccountChangeArgs a)
+        //{
+        //    Console.WriteLine("The balance amount is {0}", a.amount);
+        //}
 
-        public void listener2(object sender, AccountChangeArgs a)
-        {
-            if(a.amount >= Goal)
-                Console.WriteLine("The goal of {0} has been met", a.goal);
-        }
+        //public void listener2(object sender, AccountChangeArgs a)
+        //{
+        //    if(a.amount >= Goal)
+        //        Console.WriteLine("The goal of {0} has been met", a.goal);
+        //}
 
     }
 
@@ -48,8 +48,19 @@ namespace Events
         {
             string input;
             Bank piggy = new Bank();
-            piggy.BalanceChanged += piggy.listener;
-            piggy.BalanceChanged += piggy.listener2;
+            //piggy.BalanceChanged += piggy.listener;
+            //piggy.BalanceChanged += piggy.listener2;
+
+            piggy.BalanceChanged += (x, y) =>
+            {
+                Console.WriteLine("The balance amount is {0}", y.amount);
+            };
+
+            piggy.BalanceChanged += (x, y) =>
+            {
+                if (y.amount >= y.goal)
+                    Console.WriteLine("The goal of {0} has been met", y.goal);
+            };
 
             do
             {
