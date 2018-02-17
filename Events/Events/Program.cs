@@ -9,7 +9,7 @@ namespace Events
         private decimal _bal;
         public event EventHandler<AccountChangeArgs> BalanceChanged;
 
-        public decimal Goal { get; set; } = 500;
+        public decimal Goal { get; set; } = 500.00m;
         public decimal Balance {
             get
             {
@@ -51,16 +51,8 @@ namespace Events
             //piggy.BalanceChanged += piggy.listener;
             //piggy.BalanceChanged += piggy.listener2;
 
-            piggy.BalanceChanged += (x, y) =>
-            {
-                Console.WriteLine("The balance amount is {0}", y.amount);
-            };
-
-            piggy.BalanceChanged += (x, y) =>
-            {
-                if (y.amount >= y.goal)
-                    Console.WriteLine("The goal of {0} has been met", y.goal);
-            };
+            piggy.BalanceChanged += (x, y) => Console.WriteLine("The balance amount is {0}", y.amount);
+            piggy.BalanceChanged += (x, y) => { if (y.amount >= y.goal) Console.WriteLine("The goal of {0} has been met", y.goal); };
 
             do
             {
