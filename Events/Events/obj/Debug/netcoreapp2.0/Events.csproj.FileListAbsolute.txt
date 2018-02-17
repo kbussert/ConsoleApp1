@@ -9,3 +9,14 @@ C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.AssemblyInfoInp
 C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.AssemblyInfo.cs
 C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.dll
 C:\Source\VS_Source\Events\Events\obj\Debug\netcoreapp2.0\Events.pdb
+C:\Users\Kbuzz\Source\Repos\Events\Events\bin\Debug\netcoreapp2.0\Events.deps.json
+C:\Users\Kbuzz\Source\Repos\Events\Events\bin\Debug\netcoreapp2.0\Events.runtimeconfig.json
+C:\Users\Kbuzz\Source\Repos\Events\Events\bin\Debug\netcoreapp2.0\Events.runtimeconfig.dev.json
+C:\Users\Kbuzz\Source\Repos\Events\Events\bin\Debug\netcoreapp2.0\Events.dll
+C:\Users\Kbuzz\Source\Repos\Events\Events\bin\Debug\netcoreapp2.0\Events.pdb
+C:\Users\Kbuzz\Source\Repos\Events\Events\obj\Debug\netcoreapp2.0\Events.csprojResolveAssemblyReference.cache
+C:\Users\Kbuzz\Source\Repos\Events\Events\obj\Debug\netcoreapp2.0\Events.csproj.CoreCompileInputs.cache
+C:\Users\Kbuzz\Source\Repos\Events\Events\obj\Debug\netcoreapp2.0\Events.AssemblyInfoInputs.cache
+C:\Users\Kbuzz\Source\Repos\Events\Events\obj\Debug\netcoreapp2.0\Events.AssemblyInfo.cs
+C:\Users\Kbuzz\Source\Repos\Events\Events\obj\Debug\netcoreapp2.0\Events.dll
+C:\Users\Kbuzz\Source\Repos\Events\Events\obj\Debug\netcoreapp2.0\Events.pdb

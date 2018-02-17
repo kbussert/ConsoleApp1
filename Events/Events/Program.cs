@@ -2,8 +2,6 @@
 
 namespace Events
 {
-    //////////////////2 when the goal has been met  WIRE IN EVENT HANDLER FOR GOAL BEING MET /////////////////////////////////////////////////////////////
-
     public delegate void AccountValueDel(object sender, AccountChangeArgs a);
 
     public class Bank
@@ -22,7 +20,22 @@ namespace Events
             {
                 _bal += value;
                 this.BalanceChanged(this, new AccountChangeArgs() { amount = Balance});
+
+                if (Balance >= Goal)
+                {
+                    this.GoalMet(this, new AccountChangeArgs() {goal = Goal});
+                }
             }
+        }
+
+        public void listener(object sender, AccountChangeArgs a)
+        {
+            Console.WriteLine("The balance amount is {0}", a.amount);
+        }
+
+        public void listener2(object sender, AccountChangeArgs a)
+        {
+            Console.WriteLine("The goal of {0} has been met", a.goal);
         }
 
     }
@@ -30,6 +43,7 @@ namespace Events
     public class AccountChangeArgs: EventArgs
     {
         public decimal amount;
+        public decimal goal;
     }
 
 
@@ -39,7 +53,8 @@ namespace Events
         {
             string input;
             Bank piggy = new Bank();
-            piggy.BalanceChanged += listener;
+            piggy.BalanceChanged += piggy.listener;
+            piggy.GoalMet += piggy.listener2;
 
             do
             {
@@ -52,12 +67,5 @@ namespace Events
             
             Console.WriteLine("Goodbye!");
         }
-
-        static void listener(object sender, AccountChangeArgs a)
-        {
-            Console.WriteLine("The balance amount is {0}", a.amount);
-        } 
-
-        
     }
 }
