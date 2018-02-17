@@ -8,7 +8,6 @@ namespace Events
     {
         private decimal _bal;
         public event EventHandler<AccountChangeArgs> BalanceChanged;
-        public event EventHandler<AccountChangeArgs> GoalMet;
 
         public decimal Goal { get; set; } = 500;
         public decimal Balance {
@@ -19,12 +18,7 @@ namespace Events
             set
             {
                 _bal += value;
-                this.BalanceChanged(this, new AccountChangeArgs() { amount = Balance});
-
-                if (Balance >= Goal)
-                {
-                    this.GoalMet(this, new AccountChangeArgs() {goal = Goal});
-                }
+                this.BalanceChanged(this, new AccountChangeArgs() { amount = Balance, goal = Goal });
             }
         }
 
@@ -35,7 +29,8 @@ namespace Events
 
         public void listener2(object sender, AccountChangeArgs a)
         {
-            Console.WriteLine("The goal of {0} has been met", a.goal);
+            if(a.amount >= Goal)
+                Console.WriteLine("The goal of {0} has been met", a.goal);
         }
 
     }
@@ -54,7 +49,7 @@ namespace Events
             string input;
             Bank piggy = new Bank();
             piggy.BalanceChanged += piggy.listener;
-            piggy.GoalMet += piggy.listener2;
+            piggy.BalanceChanged += piggy.listener2;
 
             do
             {
