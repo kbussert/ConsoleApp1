@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using AbstractFactory.Interfaces.AbstractFactory;
+using AbstractFactory.Interfaces.AbstractProducts;
+using AbstractFactory.ConcreteClasses.Products;
 
 namespace FactoryPatternMethod.Products
 {
@@ -14,9 +16,12 @@ namespace FactoryPatternMethod.Products
             this.factory = factory;
         }
 
-        protected override void prepare()
+        internal override void prepare()
         {
-            throw new NotImplementedException();
+            dough = factory.createDough();
+            sauce = factory.createSauce();
+            cheese = factory.createCheese();
+            meats = factory.createMeats(new IMeats[] { new Sausage() });
         }
     }
 }

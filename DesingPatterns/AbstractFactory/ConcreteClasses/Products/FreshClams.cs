@@ -5,7 +5,7 @@ using AbstractFactory.Interfaces.AbstractProducts;
 
 namespace AbstractFactory.ConcreteClasses.Products
 {
-    class FreshClams: IMeats
+    public class FreshClams: IMeats
     {
     }
 }

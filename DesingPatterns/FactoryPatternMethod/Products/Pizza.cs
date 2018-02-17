@@ -11,28 +11,27 @@ namespace FactoryPatternMethod.Products
     public abstract class Pizza
     {
         public string Name { get; set; }
-        IDough dough;
-        ISauce sauce;
-        ICheese cheese;
-        IVeggies veggies;
-        IMeats meats;
-        IngredientFactory factory;
+        protected IDough dough;
+        protected ISauce sauce;
+        protected ICheese cheese;
+        protected IVeggies veggies;
+        protected IMeats[] meats;
 
-        protected abstract void prepare();
+        internal abstract void prepare();
 
-        void bake()
+        internal void bake()
         {
-
+            Console.WriteLine("Bake for 25 minutes at 350 degrees");
         }
 
-        void cut()
+        internal void cut()
         {
-
+            Console.WriteLine("Cutting the pizza into diagonal slices");
         }
 
-        void box()
+        internal void box()
         {
-
+            Console.WriteLine("Place pizza in official PizzaStore box");
         }
 
     }

@@ -9,31 +9,16 @@ namespace FactoryPatternMethod.Factories
 {
     abstract class PizzaStore
     {
+        Pizza pizza;
         protected abstract Pizza create(PizzaType T);
 
-        public void orderPizza()
+        public void orderPizza(PizzaType T)
         {
-
-        }
-
-        protected void prepare()
-        {
-
-        }
-
-        protected void bake()
-        {
-
-        }
-
-        protected void cut()
-        {
-
-        }
-
-        protected void box()
-        {
-
+            pizza = create(T);
+            pizza.prepare();
+            pizza.bake();
+            pizza.cut();
+            pizza.box();
         }
 
     }

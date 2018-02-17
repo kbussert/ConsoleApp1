@@ -19,7 +19,7 @@ namespace AbstractFactory.ConcreteClasses.Factories
             return new ThickCrustDough();
         }
 
-        public IMeats[] createMeats()
+        public IMeats[] createMeats(IMeats[] meats)
         {
             //additional logic needed here DEPENDENT on the type of pizza
             return new IMeats[8];
@@ -30,7 +30,7 @@ namespace AbstractFactory.ConcreteClasses.Factories
             return new MarinaraSauce();
         }
 
-        public IVeggies[] createVeggies()
+        public IVeggies[] createVeggies(IVeggies[] veggies)
         {
             //additional logic needed here DEPENDENT on the type of pizza
             return new IVeggies[8];

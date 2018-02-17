@@ -2,3 +2,12 @@ C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcor
 C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.csproj.CoreCompileInputs.cache
 C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfoInputs.cache
 C:\Users\Kbuzz\source\repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfo.cs
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.deps.json
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.runtimeconfig.json
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.runtimeconfig.dev.json
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.pdb
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\AbstractFactory.dll
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\AbstractFactory.pdb
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.dll
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.pdb

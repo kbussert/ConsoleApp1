@@ -14,7 +14,7 @@ namespace FactoryPatternMethod.Products
             this.factory = factory;
         }
 
-        protected override void prepare()
+        internal override void prepare()
         {
             throw new NotImplementedException();
         }

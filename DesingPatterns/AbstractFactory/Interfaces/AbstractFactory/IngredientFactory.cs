@@ -10,7 +10,7 @@ namespace AbstractFactory.Interfaces.AbstractFactory
         IDough createDough();
         ISauce createSauce();
         ICheese createCheese();
-        IVeggies[] createVeggies();
-        IMeats[] createMeats();
+        IVeggies[] createVeggies(IVeggies[] veggies);
+        IMeats[] createMeats(IMeats[] meats);
     }
 }
