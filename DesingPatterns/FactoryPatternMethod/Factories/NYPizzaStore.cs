@@ -25,7 +25,7 @@ namespace FactoryPatternMethod.Factories
                     pizza.Name = "New York Style Pepperoni Pizza";
                     break;
                 case PizzaType.CLAM:
-                    pizza = new ClamPizza(factory);
+                    pizza = new NYClamPizza(factory);
                     pizza.Name = "New York Style Clam Pizza";
                     break;
                 case PizzaType.VEGGIE:
@@ -37,7 +37,7 @@ namespace FactoryPatternMethod.Factories
                     pizza.Name = "New York Style Sausage Pizza";
                     break;
                 case PizzaType.DELUXE:
-                    pizza = new DeluxePizza(factory);
+                    pizza = new DeluxePizza(factory, T);
                     pizza.Name = "New York Style Deluxe Pizza";
                     break;
                 default:

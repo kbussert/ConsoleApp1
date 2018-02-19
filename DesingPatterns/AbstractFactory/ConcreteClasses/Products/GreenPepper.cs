@@ -5,7 +5,7 @@ using AbstractFactory.Interfaces.AbstractProducts;
 
 namespace AbstractFactory.ConcreteClasses.Products
 {
-    class GreenPepper : IVeggies
+    public class GreenPepper : IVeggies
     {
     }
 }

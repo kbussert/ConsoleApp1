@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FactoryPatternMethod\FactoryPatternMethod.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FactoryPatternMethod">
+      <HintPath>..\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

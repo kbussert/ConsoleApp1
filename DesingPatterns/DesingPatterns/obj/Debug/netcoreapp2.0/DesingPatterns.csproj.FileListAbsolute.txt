@@ -9,3 +9,14 @@ C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.
 C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.AssemblyInfo.cs
 C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.dll
 C:\Users\Kbuzz\source\repos\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.pdb
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.deps.json
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.runtimeconfig.json
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.runtimeconfig.dev.json
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.dll
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\DesingPatterns.pdb
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.AssemblyInfoInputs.cache
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.AssemblyInfo.cs
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.dll
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.pdb

@@ -11,3 +11,9 @@ C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcor
 C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\AbstractFactory.pdb
 C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.dll
 C:\Users\Kbuzz\Source\Repos\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.pdb
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfoInputs.cache
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfo.cs
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.dll
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.pdb

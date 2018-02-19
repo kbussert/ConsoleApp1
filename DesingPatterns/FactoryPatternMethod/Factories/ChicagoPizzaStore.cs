@@ -25,7 +25,7 @@ namespace FactoryPatternMethod.Factories
                     pizza.Name = "Chicago Style Pepperoni Pizza";
                     break;
                 case PizzaType.CLAM:
-                    pizza = new ClamPizza(factory);
+                    pizza = new ChicagoClamPizza(factory);
                     pizza.Name = "Chicago Style Clam Pizza";
                     break;
                 case PizzaType.VEGGIE:

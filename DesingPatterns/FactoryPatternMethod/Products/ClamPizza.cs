@@ -7,11 +7,11 @@ using AbstractFactory.ConcreteClasses.Products;
 
 namespace FactoryPatternMethod.Products
 {
-    class ClamPizza : Pizza
+    public class NYClamPizza : Pizza
     {
         IngredientFactory factory;
 
-        public ClamPizza(IngredientFactory factory)
+        public NYClamPizza(IngredientFactory factory)
         {
             this.factory = factory;
         }
@@ -21,7 +21,25 @@ namespace FactoryPatternMethod.Products
             dough = factory.createDough();
             sauce = factory.createSauce();
             cheese = factory.createCheese();
-            meats = factory.createMeats(new IMeats[] { new Sausage() });  //////////////////Change this to use some form of Clams
+            meats = factory.createMeats(new IMeats[] { new FreshClams() });
+        }
+    }
+
+    public class ChicagoClamPizza : Pizza
+    {
+        IngredientFactory factory;
+
+        public ChicagoClamPizza(IngredientFactory factory)
+        {
+            this.factory = factory;
+        }
+
+        internal override void prepare()
+        {
+            dough = factory.createDough();
+            sauce = factory.createSauce();
+            cheese = factory.createCheese();
+            meats = factory.createMeats(new IMeats[] { new FrozenClams() });
         }
     }
 }

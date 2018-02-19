@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using AbstractFactory.Interfaces.AbstractProducts;
+using FactoryPatternMethod.Products;
 
 namespace AbstractFactory.Interfaces.AbstractFactory
 {
@@ -10,7 +11,7 @@ namespace AbstractFactory.Interfaces.AbstractFactory
         IDough createDough();
         ISauce createSauce();
         ICheese createCheese();
-        IVeggies[] createVeggies(IVeggies[] veggies);
+        IVeggies[] createVeggies(PizzaType t);
         IMeats[] createMeats(IMeats[] meats);
     }
 }

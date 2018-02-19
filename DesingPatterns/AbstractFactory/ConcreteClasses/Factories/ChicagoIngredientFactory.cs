@@ -4,6 +4,7 @@ using System.Text;
 using AbstractFactory.Interfaces.AbstractFactory;
 using AbstractFactory.Interfaces.AbstractProducts;
 using AbstractFactory.ConcreteClasses.Products;
+using FactoryPatternMethod.Products;
 
 namespace AbstractFactory.ConcreteClasses.Factories
 {
@@ -21,8 +22,9 @@ namespace AbstractFactory.ConcreteClasses.Factories
 
         public IMeats[] createMeats(IMeats[] meats)
         {
-            //additional logic needed here DEPENDENT on the type of pizza
-            return new IMeats[8];
+            
+
+            return meats;
         }
 
         public ISauce createSauce()
@@ -30,10 +32,9 @@ namespace AbstractFactory.ConcreteClasses.Factories
             return new MarinaraSauce();
         }
 
-        public IVeggies[] createVeggies(IVeggies[] veggies)
+        public IVeggies[] createVeggies(PizzaType t)
         {
-            //additional logic needed here DEPENDENT on the type of pizza
-            return new IVeggies[8];
+            return new IVeggies[4];
         }
     }
 }

@@ -14,7 +14,7 @@ namespace FactoryPatternMethod.Products
         protected IDough dough;
         protected ISauce sauce;
         protected ICheese cheese;
-        protected IVeggies veggies;
+        protected IVeggies[] veggies;
         protected IMeats[] meats;
 
         internal abstract void prepare();
