@@ -17,3 +17,10 @@ C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\
 C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.AssemblyInfo.cs
 C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.dll
 C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\obj\Debug\netcoreapp2.0\FactoryPatternMethod.pdb
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.deps.json
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.runtimeconfig.json
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.runtimeconfig.dev.json
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.pdb
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\AbstractFactory.dll
+C:\Source\VS_Source\DesingPatterns\FactoryPatternMethod\bin\Debug\netcoreapp2.0\AbstractFactory.pdb

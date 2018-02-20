@@ -20,8 +20,28 @@ namespace AbstractFactory.ConcreteClasses.Factories
             return new ThinCrustDough();
         }
 
-        public IMeats[] createMeats(IMeats[] meats)
+        
+
+        public IMeats[] createMeats(PizzaType t)
         {
+            IMeats[] meats;
+
+            switch (t)
+            {
+                case PizzaType.PEPPERONI:
+                    meats = new IMeats[] { new Sausage(), new Pepperoni(),
+                                         new CanadianBacon()};
+                    break;
+                case PizzaType.DELUXE:
+                    meats = new IMeats[] { new Sausage(), new Pepperoni() };
+                    break;
+                case PizzaType.CLAM:
+                    meats = new IMeats[] { new FreshClams()};
+                    break;
+                default:
+                    meats = null;
+                    break;
+            }
             return meats;
         }
 
@@ -37,19 +57,19 @@ namespace AbstractFactory.ConcreteClasses.Factories
             switch (t)
             {
                 case PizzaType.VEGGIE:
-                    //pizza = new VeggiePizza(factory);
-                    //pizza.Name = "Chicago Style Veggie Pizza";
-                    veggies = null;
+                    veggies = new IVeggies[] { new Onion(), new GreenPepper(),
+                                         new RoastedRedPepper(), new Mushroom(),
+                                         new GreenOlive()
+                                             };
                     break;
                 case PizzaType.DELUXE:
                     veggies = new IVeggies[] { new Onion(), new Mushroom(),
-                                            new GreenPepper(), new BlackOlive() };
+                                            new GreenPepper(), new GreenOlive() };
                     break;
                 default:
                     veggies = null;
                     break;
             }
-
             return veggies;
         }
     }

@@ -7,13 +7,15 @@ using AbstractFactory.ConcreteClasses.Products;
 
 namespace FactoryPatternMethod.Products
 {
-    class PepperoniPizza : Pizza
+    public class PepperoniPizza : Pizza
     {
         IngredientFactory factory;
+        private PizzaType t;
 
-        public PepperoniPizza(IngredientFactory factory)
+        public PepperoniPizza(IngredientFactory factory, PizzaType t)
         {
             this.factory = factory;
+            this.t = t;
         }
 
         internal override void prepare()
@@ -21,7 +23,7 @@ namespace FactoryPatternMethod.Products
             dough = factory.createDough();
             sauce = factory.createSauce();
             cheese = factory.createCheese();
-            meats = factory.createMeats(new IMeats[] { new Pepperoni()});
+            meats = factory.createMeats(t);
         }
     }
 }

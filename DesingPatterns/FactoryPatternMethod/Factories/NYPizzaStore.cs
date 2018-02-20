@@ -17,23 +17,23 @@ namespace FactoryPatternMethod.Factories
             switch (T)
             {
                 case PizzaType.CHEESE:
-                    pizza = new CheesePizza(factory);
+                    pizza = new CheesePizza(factory, T);
                     pizza.Name = "New York Style Cheese Pizza";
                     break;
                 case PizzaType.PEPPERONI:
-                    pizza = new PepperoniPizza(factory);
+                    pizza = new PepperoniPizza(factory, T);
                     pizza.Name = "New York Style Pepperoni Pizza";
                     break;
                 case PizzaType.CLAM:
-                    pizza = new NYClamPizza(factory);
+                    pizza = new NYClamPizza(factory, T);
                     pizza.Name = "New York Style Clam Pizza";
                     break;
                 case PizzaType.VEGGIE:
-                    pizza = new VeggiePizza(factory);
+                    pizza = new VeggiePizza(factory, T);
                     pizza.Name = "New York Style Veggie Pizza";
                     break;
                 case PizzaType.SAUSAGE:
-                    pizza = new SausagePizza(factory);
+                    pizza = new SausagePizza(factory, T);
                     pizza.Name = "New York Style Sausage Pizza";
                     break;
                 case PizzaType.DELUXE:

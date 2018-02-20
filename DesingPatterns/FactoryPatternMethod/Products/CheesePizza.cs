@@ -8,10 +8,12 @@ namespace FactoryPatternMethod.Products
     class CheesePizza : Pizza
     {
         IngredientFactory factory;
+        private PizzaType t;
 
-        public CheesePizza(IngredientFactory factory)
+        public CheesePizza(IngredientFactory factory, PizzaType t)
         {
             this.factory = factory;
+            this.t = t;
         }
 
         internal override void prepare()

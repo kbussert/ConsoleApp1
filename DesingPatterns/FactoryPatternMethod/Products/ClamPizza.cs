@@ -10,10 +10,12 @@ namespace FactoryPatternMethod.Products
     public class NYClamPizza : Pizza
     {
         IngredientFactory factory;
+        private PizzaType t;
 
-        public NYClamPizza(IngredientFactory factory)
+        public NYClamPizza(IngredientFactory factory, PizzaType t)
         {
             this.factory = factory;
+            this.t = t;
         }
 
         internal override void prepare()
@@ -21,17 +23,19 @@ namespace FactoryPatternMethod.Products
             dough = factory.createDough();
             sauce = factory.createSauce();
             cheese = factory.createCheese();
-            meats = factory.createMeats(new IMeats[] { new FreshClams() });
+            meats = factory.createMeats(t);
         }
     }
 
     public class ChicagoClamPizza : Pizza
     {
         IngredientFactory factory;
+        private PizzaType t;
 
-        public ChicagoClamPizza(IngredientFactory factory)
+        public ChicagoClamPizza(IngredientFactory factory, PizzaType t)
         {
             this.factory = factory;
+            this.t = t;
         }
 
         internal override void prepare()
@@ -39,7 +43,7 @@ namespace FactoryPatternMethod.Products
             dough = factory.createDough();
             sauce = factory.createSauce();
             cheese = factory.createCheese();
-            meats = factory.createMeats(new IMeats[] { new FrozenClams() });
+            meats = factory.createMeats(t);
         }
     }
 }

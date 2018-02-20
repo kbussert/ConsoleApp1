@@ -10,12 +10,12 @@ namespace FactoryPatternMethod.Products
     class DeluxePizza : Pizza
     {
         IngredientFactory factory;
-        private PizzaType pType;
+        private PizzaType t;
 
         public DeluxePizza(IngredientFactory factory, PizzaType t)
         {
             this.factory = factory;
-            pType = t;
+            this.t = t;
         }
 
         internal override void prepare()
@@ -23,11 +23,8 @@ namespace FactoryPatternMethod.Products
             dough = factory.createDough();
             sauce = factory.createSauce();
             cheese = factory.createCheese();
-            meats = factory.createMeats(new IMeats[] { new Sausage(), new Pepperoni() });
-            //veggies = factory.createVeggies(new IVeggies[] { new Onion(), new Mushroom(),
-           //                                 new GreenPepper(), new BlackOlive() });
-
-            veggies = factory.createVeggies(pType);
+            meats = factory.createMeats(t);
+            veggies = factory.createVeggies(t);
         }
     }
 }

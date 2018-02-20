@@ -7,8 +7,16 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "AbstractFactory/1.0.0": {
+        "dependencies": {
+          "FactoryPatternMethod": "1.0.0.0"
+        },
         "runtime": {
           "AbstractFactory.dll": {}
+        }
+      },
+      "FactoryPatternMethod/1.0.0.0": {
+        "runtime": {
+          "FactoryPatternMethod.dll": {}
         }
       }
     }
@@ -16,6 +24,11 @@
   "libraries": {
     "AbstractFactory/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryPatternMethod/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -10,10 +10,12 @@ namespace FactoryPatternMethod.Products
     class SausagePizza: Pizza
     {
         IngredientFactory factory;
+        private PizzaType t;
 
-        public SausagePizza(IngredientFactory factory)
+        public SausagePizza(IngredientFactory factory, PizzaType t)
         {
             this.factory = factory;
+            this.t = t;
         }
 
         internal override void prepare()
@@ -21,7 +23,7 @@ namespace FactoryPatternMethod.Products
             dough = factory.createDough();
             sauce = factory.createSauce();
             cheese = factory.createCheese();
-            meats = factory.createMeats(new IMeats[] { new Sausage() });
+            meats = factory.createMeats(t);
         }
     }
 }
