@@ -1,4 +1,6 @@
 ﻿using System;
+using FactoryPatternMethod.Products;
+using FactoryPatternMethod.Factories;
 
 namespace DesingPatterns
 {
@@ -6,7 +8,12 @@ namespace DesingPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PizzaStore ps = new NYPizzaStore();
+
+            ps.OrderPizza(PizzaType.CHEESE);
+            
+
+            Console.ReadKey();
         }
     }
 }

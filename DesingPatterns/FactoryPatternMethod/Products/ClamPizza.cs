@@ -18,7 +18,7 @@ namespace FactoryPatternMethod.Products
             this.t = t;
         }
 
-        internal override void prepare()
+        internal override void Prepare()
         {
             dough = factory.createDough();
             sauce = factory.createSauce();
@@ -38,7 +38,7 @@ namespace FactoryPatternMethod.Products
             this.t = t;
         }
 
-        internal override void prepare()
+        internal override void Prepare()
         {
             dough = factory.createDough();
             sauce = factory.createSauce();

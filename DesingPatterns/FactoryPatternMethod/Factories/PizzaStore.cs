@@ -7,18 +7,18 @@ using AbstractFactory.Interfaces.AbstractFactory;
 
 namespace FactoryPatternMethod.Factories
 {
-    abstract class PizzaStore
+    abstract public class PizzaStore
     {
         Pizza pizza;
-        protected abstract Pizza create(PizzaType T);
+        protected abstract Pizza Create(PizzaType T);
 
-        public void orderPizza(PizzaType T)
+        public void OrderPizza(PizzaType T)
         {
-            pizza = create(T);
-            pizza.prepare();
-            pizza.bake();
-            pizza.cut();
-            pizza.box();
+            pizza = Create(T);
+            pizza.Prepare();
+            pizza.Bake();
+            pizza.Cut();
+            pizza.Box();
         }
 
     }

@@ -17,9 +17,12 @@ namespace FactoryPatternMethod.Products
             
         }
 
-        internal override void prepare()
+        internal override void Prepare()
         {
-            throw new NotImplementedException();
+            dough = factory.createDough();
+            sauce = factory.createSauce();
+            cheese = factory.createCheese();
+            veggies = factory.createVeggies(t);
         }
     }
 }

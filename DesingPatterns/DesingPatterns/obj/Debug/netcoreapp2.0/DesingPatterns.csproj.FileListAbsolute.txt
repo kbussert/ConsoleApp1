@@ -20,3 +20,7 @@ C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\Desing
 C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.AssemblyInfo.cs
 C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.dll
 C:\Source\VS_Source\DesingPatterns\DesingPatterns\obj\Debug\netcoreapp2.0\DesingPatterns.pdb
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\AbstractFactory.dll
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\AbstractFactory.pdb
+C:\Source\VS_Source\DesingPatterns\DesingPatterns\bin\Debug\netcoreapp2.0\FactoryPatternMethod.pdb
