@@ -6,12 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="AbstractFactory">
-      <HintPath>..\AbstractFactory\bin\Debug\netcoreapp2.0\AbstractFactory.dll</HintPath>
-    </Reference>
-    <Reference Include="FactoryPatternMethod">
-      <HintPath>..\FactoryPatternMethod\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj" />
+    <ProjectReference Include="..\FactoryPatternMethod\FactoryPatternMethod.csproj" />
   </ItemGroup>
 
 </Project>

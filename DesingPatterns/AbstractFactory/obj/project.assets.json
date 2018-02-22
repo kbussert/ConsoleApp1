@@ -196,6 +196,19 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FactoryPatternMethod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FactoryPatternMethod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FactoryPatternMethod.dll": {}
+        }
       }
     }
   },
@@ -656,10 +669,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FactoryPatternMethod/1.0.0": {
+      "type": "project",
+      "path": "../FactoryPatternMethod/FactoryPatternMethod.csproj",
+      "msbuildProject": "../FactoryPatternMethod/FactoryPatternMethod.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FactoryPatternMethod >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -698,7 +717,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj": {
+              "projectPath": "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
