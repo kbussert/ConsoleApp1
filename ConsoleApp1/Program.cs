@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace ConsoleApp1
 {
@@ -19,59 +20,89 @@ namespace ConsoleApp1
 
         class SetOfStacks
         {
-            List<Stack> master;
+            List<MyStack> master;
             int stackSize;
             int masterIndex;
 
             public SetOfStacks(int stackSize)
             {
-                master = new List<Stack>();
+                master = new List<MyStack>(7);
                 this.stackSize = stackSize;
                 masterIndex = 0;
-                master[0] = new Stack(stackSize);
+                master.Add(new MyStack(stackSize));
             }
 
             public void push(int value)
             {
-                if (master[masterIndex].size() >= stackSize)
+                //check if the current stack is full
+                if (master[masterIndex].Count >= stackSize)
                 {
-                    //left off here
+                    //no room on current stack, create a new one at the next master index
+                    master.Add(new MyStack(stackSize));
+                    masterIndex++;
                 }
+                master[masterIndex].push(value);
             }
 
             int pop()
             {
-                return -1;
+                if(!master[masterIndex].isEmpty())
+                {
+                    Console.WriteLine("Error thrown - Somthing bad happened. Trying to pop from an empty stack.");
+                    return Int32.MinValue;
+                }
+
+                int value = master[masterIndex].pop();
+
+                if (master[masterIndex].isEmpty())
+                {
+                    masterIndex--;
+                }
+
+                return value;
             }
-
-
         }
 
-        class Stack
+        public class MyStack
         {
             private int[] stack { get; set; }
             private int index;
+            private int maxSize;
+            public int Count { get; private set; } = 0;
 
-
-            public Stack(int size)
+            public MyStack(int size)
             {
-                stack = new int[size];
+                maxSize = size;
+                stack = new int[maxSize];
                 index = 0;
             }
 
-            public int size()
+            public void push(int value)
             {
-                return index + 1;
+                if (index == maxSize - 1)
+                {
+                    Console.WriteLine("Error - Stack is full, item was not pushed.");
+                }
+
+                stack[++index] = value;
+                Count++;
+
             }
 
-            void push(int value)
+            public int pop()
             {
-
+                if (isEmpty())
+                {
+                    Console.WriteLine("Error - Trying to pop from an empty stack.");
+                    return Int32.MinValue;
+                }
+                Count--;
+                return stack[index--];
             }
 
-            int pop()
+            public bool isEmpty()
             {
-                return -1;
+                return Count == 0;
             }
         }
     }
