@@ -14,7 +14,12 @@ namespace ConsoleApp1
             {
                 ss.push(i * 2);
             }
-           
+
+            for (int i = 0; i < 40; i++)
+            {
+                ss.pop();
+            }
+
             Console.ReadKey();
         }
 
@@ -35,7 +40,7 @@ namespace ConsoleApp1
             public void push(int value)
             {
                 //check if the current stack is full
-                if (master[masterIndex].Count >= stackSize)
+                if (master[masterIndex].Count == stackSize)
                 {
                     //no room on current stack, create a new one at the next master index
                     master.Add(new MyStack(stackSize));
@@ -44,9 +49,9 @@ namespace ConsoleApp1
                 master[masterIndex].push(value);
             }
 
-            int pop()
+            public int pop()
             {
-                if(!master[masterIndex].isEmpty())
+                if(master[masterIndex].isEmpty())
                 {
                     Console.WriteLine("Error thrown - Somthing bad happened. Trying to pop from an empty stack.");
                     return Int32.MinValue;
@@ -79,14 +84,13 @@ namespace ConsoleApp1
 
             public void push(int value)
             {
-                if (index == maxSize - 1)
+                if (index == maxSize)
                 {
                     Console.WriteLine("Error - Stack is full, item was not pushed.");
                 }
 
-                stack[++index] = value;
+                stack[index++] = value;
                 Count++;
-
             }
 
             public int pop()
@@ -96,8 +100,12 @@ namespace ConsoleApp1
                     Console.WriteLine("Error - Trying to pop from an empty stack.");
                     return Int32.MinValue;
                 }
+
+                int retVal = stack[--index];
+                stack[index] = 0;
                 Count--;
-                return stack[index--];
+
+                return retVal;
             }
 
             public bool isEmpty()
