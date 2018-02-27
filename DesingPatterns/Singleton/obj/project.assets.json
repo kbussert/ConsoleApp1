@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj",
-      "projectName": "FactoryPatternMethod",
-      "projectPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj",
+      "projectUniqueName": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\Singleton\\Singleton.csproj",
+      "projectName": "Singleton",
+      "projectPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\Singleton\\Singleton.csproj",
       "packagesPath": "C:\\Users\\Kbuzz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\FactoryPatternMethod\\obj\\",
+      "outputPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\Singleton\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
