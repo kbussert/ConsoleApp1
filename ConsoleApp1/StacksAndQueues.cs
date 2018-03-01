@@ -231,3 +231,150 @@
 
 
 ////====================================================================================================================
+////IMPLEMENTATION OF A SET OF STACKS
+////IF A STACK N VALUES BECOMES FULL ANOTHER STACK OF N IS CREATED
+////THIS INCLUDES AN ADDITIONAL COCMPLEXITY WITH A popAt(index) FUNCTION THAT WILL POP OF THE TOP ITEM OF THE index ITEM IN THE SET OF STACKS
+////AS PART OF THE popAt(index) FUNCTION, A ROLLOVER OCCURS FROM THE TOP OF THE NEXT STACK THE BOTTOM OF THE CURRENT STACK.  THIS KEEPS THE
+////NUMBER OF FULL STACKS TO THE FRONT OF THE SET OF STACKS
+
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+//        SetOfStacks ss = new SetOfStacks(10);
+
+//        for (int i = 0; i < 40; i++)
+//        {
+//            ss.push(i * 2);
+//        }
+
+//        //for (int i = 0; i < 40; i++)
+//        //{
+//        //    ss.pop();
+//        //}
+
+//        ss.popAt(0);
+
+//        ss.pop();
+
+//        Console.ReadKey();
+//    }
+
+//    class SetOfStacks
+//    {
+//        List<MyStack> master;
+//        int stackSize;
+//        int masterIndex;
+
+//        public SetOfStacks(int stackSize)
+//        {
+//            master = new List<MyStack>(7);
+//            this.stackSize = stackSize;
+//            masterIndex = 0;
+//            master.Add(new MyStack(stackSize));
+//        }
+
+//        public int popAt(int targetIndex)
+//        {
+//            if (master[targetIndex].Count != 10 || targetIndex == masterIndex)
+//            {
+//                return master[targetIndex].pop();
+//            }
+
+//            int bottomVal = popAt(targetIndex + 1);
+//            int topVal = master[targetIndex].pop();
+
+//            MyStack temp = new MyStack(stackSize);
+
+//            while (!master[targetIndex].isEmpty())
+//            {
+//                temp.push(master[targetIndex].pop());
+//            }
+
+//            master[targetIndex].push(bottomVal);
+
+//            while (!temp.isEmpty())
+//            {
+//                master[targetIndex].push(temp.pop());
+//            }
+
+//            return topVal;
+//        }
+
+//        public void push(int value)
+//        {
+//            //check if the current stack is full
+//            if (master[masterIndex].Count == stackSize)
+//            {
+//                //no room on current stack, create a new one at the next master index
+//                master.Add(new MyStack(stackSize));
+//                masterIndex++;
+//            }
+//            master[masterIndex].push(value);
+//        }
+
+//        public int pop()
+//        {
+//            if (master[masterIndex].isEmpty())
+//            {
+//                Console.WriteLine("Error thrown - Somthing bad happened. Trying to pop from an empty stack.");
+//                return Int32.MinValue;
+//            }
+
+//            int value = master[masterIndex].pop();
+
+//            if (master[masterIndex].isEmpty())
+//            {
+//                masterIndex--;
+//            }
+
+//            return value;
+//        }
+//    }
+
+//    public class MyStack
+//    {
+//        private int[] stack { get; set; }
+//        private int index;
+//        private int maxSize;
+//        public int Count { get; private set; } = 0;
+
+//        public MyStack(int size)
+//        {
+//            maxSize = size;
+//            stack = new int[maxSize];
+//            index = 0;
+//        }
+
+//        public void push(int value)
+//        {
+//            if (index == maxSize)
+//            {
+//                Console.WriteLine("Error - Stack is full, item was not pushed.");
+//            }
+
+//            stack[index++] = value;
+//            Count++;
+//        }
+
+//        public int pop()
+//        {
+//            if (isEmpty())
+//            {
+//                Console.WriteLine("Error - Trying to pop from an empty stack.");
+//                return Int32.MinValue;
+//            }
+
+//            int retVal = stack[--index];
+//            stack[index] = 0;
+//            Count--;
+
+//            return retVal;
+//        }
+
+//        public bool isEmpty()
+//        {
+//            return Count == 0;
+//        }
+//    }
+//}
