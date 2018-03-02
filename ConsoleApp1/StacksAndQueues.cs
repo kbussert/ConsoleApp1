@@ -236,7 +236,6 @@
 ////THIS INCLUDES AN ADDITIONAL COCMPLEXITY WITH A popAt(index) FUNCTION THAT WILL POP OF THE TOP ITEM OF THE index ITEM IN THE SET OF STACKS
 ////AS PART OF THE popAt(index) FUNCTION, A ROLLOVER OCCURS FROM THE TOP OF THE NEXT STACK THE BOTTOM OF THE CURRENT STACK.  THIS KEEPS THE
 ////NUMBER OF FULL STACKS TO THE FRONT OF THE SET OF STACKS
-
 //class Program
 //{
 //    static void Main(string[] args)
@@ -276,29 +275,50 @@
 
 //        public int popAt(int targetIndex)
 //        {
-//            if (master[targetIndex].Count != 10 || targetIndex == masterIndex)
+//            if (targetIndex == masterIndex)
 //            {
 //                return master[targetIndex].pop();
 //            }
 
-//            int bottomVal = popAt(targetIndex + 1);
 //            int topVal = master[targetIndex].pop();
-
-//            MyStack temp = new MyStack(stackSize);
-
-//            while (!master[targetIndex].isEmpty())
-//            {
-//                temp.push(master[targetIndex].pop());
-//            }
+//            int bottomVal = shiftLeft(targetIndex + 1);
 
 //            master[targetIndex].push(bottomVal);
 
-//            while (!temp.isEmpty())
+//            return topVal;
+//        }
+
+//        public int shiftLeft(int ind)
+//        {
+//            if (ind == masterIndex)
 //            {
-//                master[targetIndex].push(temp.pop());
+//                return getBottom(ind);
 //            }
 
-//            return topVal;
+//            int bottomVal = getBottom(ind);
+
+//            master[ind].push(shiftLeft(ind + 1));
+
+//            return bottomVal;
+//        }
+
+//        private int getBottom(int index)
+//        {
+//            MyStack temp = new MyStack(stackSize);
+
+//            while (!master[index].isEmpty())
+//            {
+//                temp.push(master[index].pop());
+//            }
+
+//            int retVal = temp.pop();
+
+//            while (!temp.isEmpty())
+//            {
+//                master[index].push(temp.pop());
+//            }
+
+//            return retVal;
 //        }
 
 //        public void push(int value)
