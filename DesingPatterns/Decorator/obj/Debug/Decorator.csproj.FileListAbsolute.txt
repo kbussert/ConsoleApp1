@@ -1,0 +1,7 @@
+C:\Source\VS_Source\DesingPatterns\Decorator\bin\Debug\Decorator.exe.config
+C:\Source\VS_Source\DesingPatterns\Decorator\bin\Debug\Decorator.exe
+C:\Source\VS_Source\DesingPatterns\Decorator\bin\Debug\Decorator.pdb
+C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.exe
+C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.pdb

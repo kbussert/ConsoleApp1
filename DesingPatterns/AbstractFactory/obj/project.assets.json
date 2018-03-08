@@ -683,7 +683,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kbuzz\\.nuget\\packages\\": {},
+    "C:\\Users\\KB186036\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -692,18 +693,20 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\AbstractFactory\\AbstractFactory.csproj",
+      "projectUniqueName": "C:\\Source\\VS_Source\\DesingPatterns\\AbstractFactory\\AbstractFactory.csproj",
       "projectName": "AbstractFactory",
-      "projectPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\AbstractFactory\\AbstractFactory.csproj",
-      "packagesPath": "C:\\Users\\Kbuzz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\AbstractFactory\\obj\\",
+      "projectPath": "C:\\Source\\VS_Source\\DesingPatterns\\AbstractFactory\\AbstractFactory.csproj",
+      "packagesPath": "C:\\Users\\KB186036\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\VS_Source\\DesingPatterns\\AbstractFactory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kbuzz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\KB186036\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -715,8 +718,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj": {
-              "projectPath": "C:\\Users\\Kbuzz\\Source\\Repos\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj"
+            "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj": {
+              "projectPath": "C:\\Source\\VS_Source\\DesingPatterns\\FactoryPatternMethod\\FactoryPatternMethod.csproj"
             }
           }
         }

@@ -1,0 +1,16 @@
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\obj\Debug\DecoratorTestProject.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\obj\Debug\DecoratorTestProject.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\DecoratorTestProject.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\DecoratorTestProject.pdb
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Decorator.exe
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Decorator.pdb
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Decorator.exe.config
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\obj\Debug\DecoratorTestProject.dll
+C:\Source\VS_Source\DesingPatterns\DecoratorTestProject\obj\Debug\DecoratorTestProject.pdb

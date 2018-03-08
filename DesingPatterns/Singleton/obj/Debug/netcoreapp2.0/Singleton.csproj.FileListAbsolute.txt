@@ -9,3 +9,14 @@ C:\Users\Kbuzz\Source\Repos\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Sin
 C:\Users\Kbuzz\Source\Repos\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.AssemblyInfo.cs
 C:\Users\Kbuzz\Source\Repos\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.dll
 C:\Users\Kbuzz\Source\Repos\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.pdb
+C:\Source\VS_Source\DesingPatterns\Singleton\bin\Debug\netcoreapp2.0\Singleton.deps.json
+C:\Source\VS_Source\DesingPatterns\Singleton\bin\Debug\netcoreapp2.0\Singleton.runtimeconfig.json
+C:\Source\VS_Source\DesingPatterns\Singleton\bin\Debug\netcoreapp2.0\Singleton.runtimeconfig.dev.json
+C:\Source\VS_Source\DesingPatterns\Singleton\bin\Debug\netcoreapp2.0\Singleton.dll
+C:\Source\VS_Source\DesingPatterns\Singleton\bin\Debug\netcoreapp2.0\Singleton.pdb
+C:\Source\VS_Source\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.csprojResolveAssemblyReference.cache
+C:\Source\VS_Source\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.csproj.CoreCompileInputs.cache
+C:\Source\VS_Source\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.AssemblyInfoInputs.cache
+C:\Source\VS_Source\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.AssemblyInfo.cs
+C:\Source\VS_Source\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.dll
+C:\Source\VS_Source\DesingPatterns\Singleton\obj\Debug\netcoreapp2.0\Singleton.pdb
