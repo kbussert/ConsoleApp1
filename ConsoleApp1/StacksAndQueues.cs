@@ -398,3 +398,126 @@
 //        }
 //    }
 //}
+
+
+////====================================================================================================================
+////IMPLEMENT TOWERS OF HANOI USING STACKS
+////USED A GLOBAL VAR TO TRACK THE NUMBER OF TIMES THE MOVE DISKS METHOD WAS BEING CALLED
+////USED INT VALUES AS DISKS AS THIS MADE IT EASIER TO ENURE LARGER VALUES WEREN'T PLACED ON SMALLER VALUES etc.
+
+//static class Globals
+//{
+//    public static int methodCount = 0;
+//}
+//class Program
+//{
+
+//    static void Main(string[] args)
+//    {
+//        Tstack left_Tower = new Tstack(10);
+//        Tstack middle_Tower = new Tstack(10);
+//        Tstack right_Tower = new Tstack(10);
+
+//        left_Tower.Push(10);
+//        left_Tower.Push(9);
+//        left_Tower.Push(8);
+//        left_Tower.Push(7);
+//        left_Tower.Push(6);
+//        left_Tower.Push(5);
+//        left_Tower.Push(4);
+//        left_Tower.Push(3);
+//        left_Tower.Push(2);
+//        left_Tower.Push(1);
+
+//        MoveDisks(left_Tower.Count, left_Tower, right_Tower, middle_Tower);
+//        Console.WriteLine(Globals.methodCount.ToString());
+//        Console.ReadKey();
+//    }
+
+//    public static void MoveDisks(int numberToMove, Tstack origin, Tstack dest, Tstack buffer)
+//    {
+//        Globals.methodCount++;
+
+//        if (numberToMove > 1)
+//        {
+//            MoveDisks(numberToMove - 1, origin, buffer, dest);
+//            //return;
+//        }
+
+//        dest.Push(origin.Pop());
+//        //return;
+
+//        if (numberToMove > 1)
+//        {
+//            MoveDisks(numberToMove - 1, buffer, dest, origin);
+//        }
+//    }
+
+//}
+
+//public class Tstack
+//{
+//    private int _size;
+//    private int index = -1;
+//    public int Count { get; private set; } = 0;
+//    private int[] stack;
+
+//    public Tstack(int size)
+//    {
+//        _size = size;
+//        stack = new int[_size];
+//    }
+
+//    public bool IsEmpty()
+//    {
+//        return Count == 0;
+//    }
+
+//    public void Push(int value)
+//    {
+
+//        if (this.IsEmpty())             //check for an empty stack
+//        {
+//            stack[++index] = value;
+//            Count++;
+//        }
+//        else if (this.Count == _size)   //check if the stack is full
+//        {
+//            throw new Exception("stack is full, no additional items can be added.");
+//        }
+//        else if (this.Peek() <= value)  //throw exception if peeked value is less than the incoming "value"
+//        {
+//            throw new Exception("can not add a larger disk onto a smaller disk.");
+//        }
+//        else                            //push the value
+//        {
+//            stack[++index] = value;
+//            Count++;
+//        }
+//    }
+
+//    public int Pop()
+//    {
+//        if (this.IsEmpty())
+//        {
+//            throw new Exception("cannot pop from an empty stack");
+//        }
+
+//        int temp = stack[index];
+//        stack[index--] = 0;
+//        Count--;
+
+//        return temp;
+//    }
+
+//    public int Peek()
+//    {
+//        if (Count == 0)
+//        {
+//            throw new Exception("cannot peek the top value of an empty stack");
+//        }
+
+//        return stack[index];
+//    }
+
+//}
