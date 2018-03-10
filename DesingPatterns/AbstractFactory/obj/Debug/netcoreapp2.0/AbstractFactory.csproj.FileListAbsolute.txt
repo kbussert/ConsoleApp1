@@ -22,3 +22,5 @@ C:\Source\VS_Source\DesingPatterns\AbstractFactory\obj\Debug\netcoreapp2.0\Abstr
 C:\Source\VS_Source\DesingPatterns\AbstractFactory\obj\Debug\netcoreapp2.0\AbstractFactory.pdb
 C:\Source\VS_Source\DesingPatterns\AbstractFactory\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll
 C:\Source\VS_Source\DesingPatterns\AbstractFactory\bin\Debug\netcoreapp2.0\FactoryPatternMethod.pdb
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\AbstractFactory\bin\Debug\netcoreapp2.0\FactoryPatternMethod.dll
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\AbstractFactory\bin\Debug\netcoreapp2.0\FactoryPatternMethod.pdb

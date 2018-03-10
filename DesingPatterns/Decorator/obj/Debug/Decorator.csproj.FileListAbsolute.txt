@@ -5,3 +5,10 @@ C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.csprojResolveAs
 C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
 C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.exe
 C:\Source\VS_Source\DesingPatterns\Decorator\obj\Debug\Decorator.pdb
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\bin\Debug\Decorator.exe.config
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\bin\Debug\Decorator.exe
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\bin\Debug\Decorator.pdb
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\obj\Debug\Decorator.exe
+C:\Users\Kbuzz\Source\Repos\DesingPatterns\Decorator\obj\Debug\Decorator.pdb
