@@ -130,6 +130,80 @@ namespace DecoratorTestProject
             //Assert
             Assert.AreEqual(price, 1.09m);
         }
+
+        //retrieve the price of an espresso with mocha
+        [TestMethod]
+        public void EspressoWithMochaPriceTest()
+        {
+            //Arrange
+            Beverage bev = new Espresso();
+            bev = new Mocha(bev);
+            decimal price;
+            //Act
+            price = bev.GetPrice();
+            //Assert
+            Assert.AreEqual(price, 2.19m);
+        }
+
+        //retrieve the price of a dark roast with steamed milk
+        [TestMethod]
+        public void DarkRoastWithMochaPriceTest()
+        {
+            //Arrange
+            Beverage bev = new DarkRoast();
+            bev = new SteamedMilk(bev);
+            decimal price;
+            //Act
+            price = bev.GetPrice();
+            //Assert
+            Assert.AreEqual(price, 1.09m);
+        }
+
+        //retrieve the price of a decaf with steamed milk
+        [TestMethod]
+        public void DecafWithMochaPriceTest()
+        {
+            //Arrange
+            Beverage bev = new Decaf();
+            bev = new SteamedMilk(bev);
+            decimal price;
+            //Act
+            price = bev.GetPrice();
+            //Assert
+            Assert.AreEqual(price, 1.15m);
+        }
+
+        //retrieve the price of a dark roast mocha whip
+        [TestMethod]
+        public void DarkRoastMochaWhipPriceTest()
+        {
+            //Arrange
+            Beverage bev = new DarkRoast();
+            bev = new Mocha(bev);
+            bev = new Whip(bev);
+            decimal price;
+            //Act
+            price = bev.GetPrice();
+            //Assert
+            Assert.AreEqual(price, 1.29m);
+        }
+
+        //retrieve the price of a dark roast with steamed milk
+        [TestMethod]
+        public void DoubleMochaSoyLatteWithWhipPriceTest()
+        {
+            //Arrange
+            Beverage bev = new HouseBlend();
+            bev = new Soy(bev);
+            bev = new Mocha(bev);
+            bev = new Mocha(bev);
+            bev = new Whip(bev);
+            decimal price;
+            //Act
+            price = bev.GetPrice();
+            //Assert
+            Assert.AreEqual(price, 1.54m);
+        }
     }
 
     

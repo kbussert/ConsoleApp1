@@ -49,6 +49,7 @@
     <Compile Include="ConcreteComponent\HouseBlend.cs" />
     <Compile Include="ConcreteDecorators\Mocha.cs" />
     <Compile Include="ConcreteDecorators\Soy.cs" />
+    <Compile Include="ConcreteDecorators\SteamedMilk.cs" />
     <Compile Include="ConcreteDecorators\Whip.cs" />
     <Compile Include="Decorator\CondimentDecorator.cs" />
     <Compile Include="Program.cs" />
